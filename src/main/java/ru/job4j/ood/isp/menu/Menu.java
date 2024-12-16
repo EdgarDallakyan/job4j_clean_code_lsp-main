@@ -13,6 +13,7 @@ public interface Menu extends Iterable<Menu.MenuItemInfo> {
 
     Optional<MenuItemInfo> select(String itemName);
 
+
     class MenuItemInfo {
 
         private final String name;
